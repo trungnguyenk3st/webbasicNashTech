@@ -1,0 +1,53 @@
+.banner-wrapper {
+    position: relative;
+}
+
+.banner-wrapper .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-text-red {
+    font-size: 36px;
+    color: #ff003c;
+}
+
+.banner-text-white {
+    font-size: 48px;
+    color: #fff;
+}
+
+
+/* Product Item */
+
+.product-item {
+    text-align: center;
+    padding: 30px;
+}
+
+.product-item .product-title {
+    padding: 20px;
+}
+
+.product-item:hover .product-title {
+    color: #ff003c;
+}
+
+.product-item .product-description {
+    font-size: 18px;
+}
+
+.product-item .product-button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.product-item .product-button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
